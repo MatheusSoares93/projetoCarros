@@ -1,0 +1,40 @@
+{
+    "listProduct": [
+      {
+        "id": "1",
+        "title": "Buggati Bolide",
+        "description": "O Bolide de produção tem 1.600 cv de potência gerados por seu motor W16, igualando a potência dos outros esportivos da Bugatti. No entanto, ele é consideravelmente mais leve, pesando cerca de 1.133 kg, contra 1.950 kg do Chiron completo. Diz-se que a safra atual de carros de Fórmula 1 tem cerca de 1.000 cv, portanto, o Bolide certamente tem uma vantagem de potência. Mas o peso favorece a F1 por uma margem significativa.",
+        "image": "bolide"
+      },
+      {
+        "id": "2",
+        "title": "Lamborghini Centenario",
+        "description": "O Centenario mede 4.924 mm de comprimento e 1.143 mm de altura, sendo mais longo e um pouco mais alto que o Aventador, que mede 4.780 mm e 1.136 mm, respectivamente. A suspensão, no entanto, é mais baixa — e usa amortecedores magnetorreológicos para se ajustar automaticamente de acordo com as condições do piso.        A Lamborghini também equipou o Centenario com um sistema de esterçamento nas rodas traseiras semelhante ao encontrado no Porsche 911 GT3 RS e na Ferrari F12tdf (leia mais sobre o sistema aqui), a fim de melhorar a agilidade nas curvas. A marca diz que o formato irregular dos arcos de roda reflete a opção pelo sistema, mas a verdade é que se trata de uma tradição desde o Countach.",
+        "image": "centenario"
+      },
+      {
+        "id": "3",
+        "title": "Corvette C8",
+        "description": "O Chevrolet Corvette Stingray C8 é alimentado por um motor V8 de 6,2 litros que produz 490 cavalos de potência e 64.28 kgfm de torque. Ele pode acelerar de 0 a 100 km/h em menos de 3 segundos e tem uma velocidade máxima de 312 km/h. O carro também possui uma transmissão automática de dupla embreagem de oito velocidades.",
+        "image": "c8"
+      },
+      {
+        "id": "4",
+        "title": "Henessey Venom F5",
+        "description": "Hennessey Venom F5 Revolution terá apenas 12 unidades produzidas; todas já foram vendidas por R$ 14,7 milhões, cada Imagine chegar a 100 km/h em 2,6 segundos com os cabelos ao vento. E seguir acelerando até os 200 km/h, 300 km/h, 400 km/h e só alcançando a velocidade máxima com o ponteiro marcando 482 km/h. Essa é a promessa da Hennessey com o novíssimo Venom F5 Revolution Roadster, que será o carro conversível mais rápido do mundo.",
+        "image": "venom"
+      },
+      {
+        "id": "5",
+        "title": "Nissan GTR R35",
+        "description": "O Nissan GT-R é um modelo de automóvel superesportivo produzido pela Nissan, foi anunciado em 2001 com o objectivo de dar sequencia a marca GT-R (que surgiu na década de 1960 que fez sucesso com o Skyline), em 6 de Dezembro de 2007 foi oficialmente lançado no Japão, em 2008 chegou aos Estados Unidos, Canadá e Portugal, no resto do mundo apenas em 2009. O modelo 2007 possui um motor 3.8 V6 Biturbo com potência de 480Cv (362 kW) e 59.95Kgfm (588,0N.m.) de torque, acoplado a uma transmissão automatizada de 6 marchas com dupla embreagem e sistema de tração AWD ATTESA E-TS®, esse conjunto fornece desempenho capaz de levar os 1740Kg de 0–100 km/h em 2.7s e tem velocidade máxima de 385 à 395 km/h.",
+        "image": "gtr"
+      },
+      {
+        "id": "6",
+        "title": "Porsche 918 Spyder",
+        "description": "Entre os carros de rua, o 918 Spyder é o que mais se aproxima do 919 Hybrid. Sua propulsão híbrida, com um motor a combustão e geradores elétricos posicionados respectivamente nos eixos dianteiro e traseiro, tem potência total de 887 cv (652 kW) e a velocidade máxima é de 345 km/h. Os assentos são quase tão baixos quanto os do carro de corrida. Na ida a Le Mans o termo “carro esportivo” ganha um novo significado. A cada pedágio Marc Lieb tem que abrir o cinto de segurança, levantar-se do banco tipo concha e esticar o tronco através da janela lateral aberta, pois de outra forma ele não alcançaria a abertura para o cartão de crédito. Na mesma altura onde em carros normais fica o retrovisor, brilha no 918 Spyder o teto de carbono removível.",
+        "image": "918"
+      }
+    ]
+  }  
