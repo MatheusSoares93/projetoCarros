@@ -3,7 +3,7 @@ export default function About2() {
     return (
         <View>
         <Text> Texto </Text>
-
+        
         
         </View>
     )

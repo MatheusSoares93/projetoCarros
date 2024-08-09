@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, View, ImageBackground, Pressable, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import { useFonts } from 'expo-font';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function Index() {
   let [fontsLoaded] = useFonts({
@@ -13,30 +14,42 @@ export default function Index() {
   }
 
   return (
-    <ImageBackground 
-      source={require('../assets/images/car.jpg')}
-      style={styles.container}
-    >
-      <View style={styles.overlay} />
-      <View style={styles.content}>
-        <Text style={styles.title}>
-          Alguns dos carros que mais gosto
-        </Text>
 
-        <Text style={styles.description}>
-          Nissan Skyline R34 GTR
-        </Text>
-
-        <Link href="/products" style={styles.button} asChild>
-          <Pressable>
-            <Text style={styles.buttonText}>
-              Ver carros
-            </Text>
-          </Pressable>
-        </Link>
-      </View>
-    </ImageBackground>
-  );
+      <ImageBackground 
+        source={require('../assets/images/car.jpg')}
+        style={styles.container}
+      >
+        <View style={styles.overlay} />
+        <View style={styles.content}>
+          <Text style={styles.title}>
+            Alguns dos carros que mais gosto
+          </Text>
+    
+          <Text style={styles.description}>
+            Nissan Skyline R34 GTR
+          </Text>
+    
+          <View style={styles.buttonContainer}>
+            <Link href="/products" style={styles.button} asChild>
+              <Pressable>
+                <Text style={styles.buttonText}>
+                  Ver carros
+                </Text>
+              </Pressable>
+            </Link>
+    
+            <Link href="/about2" style={styles.button} asChild>
+              <TouchableOpacity>
+                <Text style={styles.buttonText}>
+                  about2
+                </Text>
+              </TouchableOpacity>
+            </Link>
+          </View>
+          
+        </View>
+      </ImageBackground>
+    );
 }
 
 const styles = StyleSheet.create({
@@ -75,7 +88,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   button: {
-    position: 'absolute',
+    width:'100%',
     bottom: 0,
     left: 0,
     right: 0,
