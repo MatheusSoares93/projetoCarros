@@ -5,19 +5,18 @@ export default function RootLayout() {
     <Stack
       screenOptions={{
         headerStyle: {
-          backgroundColor: "#0066CC", // Cor de fundo do cabeçalho em preto
+          backgroundColor: "#0066CC", 
         },
-        headerTintColor: "#fff", // Cor do texto do cabeçalho em vermelho
+        headerTintColor: "#fff", 
         headerTitleStyle: {
           fontWeight: "bold",
         },
-        headerTitleAlign: "center", // Centraliza o título na barra de navegação
+        headerTitleAlign: "center", 
       }}
     >
-      {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
-      <Stack.Screen name="index" options={{ title: "Carros do Soares " }} /> {/* Título da tela inicial */}
-      <Stack.Screen name="products" options={{ title: "Carros" }} /> {/* Título da tela de produtos */}
-      <Stack.Screen name="car/[id]" options={{ title: 'Informações' }} /> {/* Título da tela de detalhes do carro */}
+      <Stack.Screen name="index" options={{ title: "Carros do Soares " }} />
+      <Stack.Screen name="products" options={{ title: "Carros" }} />
+      <Stack.Screen name="car/[id]" options={{ title: 'Informações' }} />
     </Stack>
   );
 }

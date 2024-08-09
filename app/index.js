@@ -9,7 +9,7 @@ export default function Index() {
   });
 
   if (!fontsLoaded) {
-    return null; // Ou um carregamento ou mensagem
+    return null;
   }
 
   return (
@@ -53,11 +53,10 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.8)', // Ajuste o valor para controlar a transparência
+    backgroundColor: 'rgba(0, 0, 0, 0.8)', 
   },
   content: {
     flex: 1,
-    // justifyContent: 'center',
      alignItems: 'center',
   },
   title: {

@@ -17,7 +17,6 @@ export default function Products() {
                             <Image source={imageMappings[item.image]} style={styles.image} />
                             <View style={styles.textContainer}>
                                 <Text style={styles.titleProduct}>{item.id}. {item.title}</Text>
-                                {/* <Text style={styles.description}>{item.description}</Text> */}
                             </View>
                         </View>
                         <Link
@@ -25,7 +24,7 @@ export default function Products() {
                                 pathname: "/carsingle/id",
                                 params: { id:item.id }
                             }}
-                            style={styles.itemLink} // Estilo do link para ser um botão
+                            style={styles.itemLink} 
                         >
                             <Text style={styles.linkText}>Acessar</Text>
                         </Link>
@@ -63,21 +62,21 @@ const styles = StyleSheet.create({
         width: '100%',
     },
     itemContainerDetails: {
-        flexDirection: 'row', // Organiza imagem e texto lado a lado
-        alignItems: 'center', // Alinha a imagem e o texto verticalmente
+        flexDirection: 'row', 
+        alignItems: 'center', 
     },
     itemLink: {
         backgroundColor: '#0066CC', 
-        paddingVertical: 15, // Espaçamento vertical do botão
-        paddingHorizontal: 20, // Espaçamento horizontal do botão
-        marginTop: 10, // Espaço entre o item e o botão
-        alignItems: 'center', // Centraliza o texto dentro do botão
-        justifyContent: 'center', // Alinha o texto verticalmente no botão
+        paddingVertical: 15, 
+        paddingHorizontal: 20, 
+        marginTop: 10, 
+        alignItems: 'center', 
+        justifyContent: 'center', 
         borderRadius: 15,
         textAlign: 'center'
     },
     linkText: {
-        color: '#FFFFFF', // Texto branco
+        color: '#FFFFFF', 
         fontWeight: 'bold',
         fontSize: 16,
     },
@@ -98,7 +97,7 @@ const styles = StyleSheet.create({
     description: {
         marginTop: 5,
         fontSize: 14,
-        color: '#fff', // Texto branco
+        color: '#fff', 
         lineHeight: 18,
         textAlign: 'left',
     },
