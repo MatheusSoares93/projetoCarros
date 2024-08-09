@@ -2,7 +2,6 @@ import React from 'react';
 import { Text, View, ImageBackground, Pressable, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import { useFonts } from 'expo-font';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Index() {
   let [fontsLoaded] = useFonts({
@@ -25,7 +24,6 @@ export default function Index() {
         </Text>
 
         <Text style={styles.description}>
-          {/* <Icon name="car" size={30} color="#fff" />  */}
           Nissan Skyline R34 GTR
         </Text>
 
