@@ -41,12 +41,20 @@ export default function Index() {
             <Link href="/about2" style={styles.button} asChild>
               <TouchableOpacity>
                 <Text style={styles.buttonText}>
-                  about2
+                  Sobre
                 </Text>
               </TouchableOpacity>
             </Link>
           </View>
-          
+
+          <Link href="/brands" style={styles.button} asChild>
+              <TouchableOpacity>
+                <Text style={styles.buttonText}>
+                  Marcas
+                </Text>
+              </TouchableOpacity>
+            </Link>
+
         </View>
       </ImageBackground>
     );
@@ -88,11 +96,11 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   button: {
-    width:'100%',
+    width:'150px',
     bottom: 0,
     left: 0,
     right: 0,
-    margin: 20,
+    margin: 15,
     backgroundColor: '#0066CC',
     alignItems: 'center',
     justifyContent: 'center',

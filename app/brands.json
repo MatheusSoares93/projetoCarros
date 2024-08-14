@@ -1,0 +1,40 @@
+{
+    "listBrand": [
+        {
+            "id": 1,
+            "name": "Bugatti",
+            "image": "bugatti",
+            "description": "Descrição da Marca A."
+        },
+        {
+            "id": 2,
+            "name": "Lamborghini",
+            "image": "lamb",
+            "description": "Descrição da Marca B."
+        },
+        {
+            "id": 3,
+            "name": "Corvette",
+            "image": "corvette",
+            "description": "Descrição da Marca B."
+        },
+        {
+            "id": 4,
+            "name": "Hennessey",
+            "image": "hennessey",
+            "description": "Descrição da Marca B."
+        },
+        {
+            "id": 5,
+            "name": "Nissan",
+            "image": "nissan",
+            "description": "Descrição da Marca B."
+        },
+        {
+            "id": 6,
+            "name": "Porsche",
+            "image": "porsche",
+            "description": "Descrição da Marca B."
+        }
+    ]
+}
