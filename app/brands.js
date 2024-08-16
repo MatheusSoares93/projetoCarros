@@ -3,7 +3,7 @@ import { Link } from "expo-router";
 import brandsList from './brands.json';
 import imageMappings from './imageMappings';
 
-export default function brands() {
+export default function Brands() {
     return (
         <ScrollView style={styles.container}>
             <Text style={styles.title}>
@@ -21,7 +21,7 @@ export default function brands() {
                         </View>
                         <Link
                             href={{
-                                pathname: "/branddetail/id",
+                                pathname: "/brandsingle/id",
                                 params: { id: item.id }
                             }}
                             style={styles.itemLink} 

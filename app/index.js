@@ -14,71 +14,82 @@ export default function Index() {
   }
 
   return (
+    <ImageBackground 
+      source={require('../assets/images/car.jpg')}
+      style={styles.container}
+    >
+      <View style={styles.topOverlay} />
+      
+      <View style={styles.content}>
+        <Text style={styles.title}>
+          Alguns dos carros que mais gosto
+        </Text>
 
-      <ImageBackground 
-        source={require('../assets/images/car.jpg')}
-        style={styles.container}
-      >
-        <View style={styles.overlay} />
-        <View style={styles.content}>
-          <Text style={styles.title}>
-            Alguns dos carros que mais gosto
-          </Text>
-    
-          <Text style={styles.description}>
-            Nissan Skyline R34 GTR
-          </Text>
-    
-          <View style={styles.buttonContainer}>
-            <Link href="/products" style={styles.button} asChild>
-              <Pressable>
-                <Text style={styles.buttonText}>
-                  Ver carros
-                </Text>
-              </Pressable>
-            </Link>
-    
-            <Link href="/about2" style={styles.button} asChild>
-              <TouchableOpacity>
-                <Text style={styles.buttonText}>
-                  Sobre
-                </Text>
-              </TouchableOpacity>
-            </Link>
-          </View>
+        <Text style={styles.description}>
+          Nissan Skyline R34 GTR
+        </Text>
 
-          <Link href="/brands" style={styles.button} asChild>
-              <TouchableOpacity>
-                <Text style={styles.buttonText}>
-                  Marcas
-                </Text>
-              </TouchableOpacity>
-            </Link>
+        <View style={styles.buttonContainer}>
+          <Link href="/products" style={styles.button} asChild>
+            <Pressable>
+              <Text style={styles.buttonText}>
+                Ver carros
+              </Text>
+            </Pressable>
+          </Link>
 
+          <Link href="/about2" style={styles.button} asChild>
+            <TouchableOpacity>
+              <Text style={styles.buttonText}>
+                Sobre
+              </Text>
+            </TouchableOpacity>
+          </Link>
         </View>
-      </ImageBackground>
-    );
+
+        <Link href="/brands" style={styles.button} asChild>
+          <TouchableOpacity>
+            <Text style={styles.buttonText}>
+              Marcas
+            </Text>
+          </TouchableOpacity>
+        </Link>
+      </View>
+
+      <View style={styles.bottomOverlay} />
+    </ImageBackground>
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     width: '100%',
     height: '100%',
   },
-  overlay: {
+  topOverlay: {
     position: 'absolute',
     top: 0,
     left: 0,
     right: 0,
+    height: 320, 
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    zIndex: 1, 
+  },
+  bottomOverlay: {
+    position: 'absolute',
     bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.8)', 
+    left: 0,
+    right: 0,
+    height: 320, 
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    zIndex: 1, 
   },
   content: {
     flex: 1,
-     alignItems: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    zIndex: 2, 
   },
   title: {
     fontFamily: 'Roboto-Light',
@@ -96,10 +107,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   button: {
-    width:'150px',
-    bottom: 0,
-    left: 0,
-    right: 0,
+    width: '150px',
     margin: 15,
     backgroundColor: '#0066CC',
     alignItems: 'center',

@@ -1,40 +1,40 @@
 {
     "listBrand": [
         {
-            "id": 1,
+            "id": "1",
             "name": "Bugatti",
             "image": "bugatti",
-            "description": "Descrição da Marca A."
+            "description": "Bugatti Automobiles é uma fabricante francesa de carros esportivos com sede na cidade francesa de Molsheim, na Alsácia. A empresa foi fundada em 1998 como subsidiária do Grupo Volkswagen. A marca de automóveis Bugatti original foi fundada por Ettore Bugatti (1881–1947) em 1909 em Molsheim e construía carros esportivos, de corrida e de luxo. Em novembro de 2021, a empresa passou a fazer parte da Bugatti Rimac, uma joint-venture entre o Grupo Rimac e a Porsche AG. Desde 1º de novembro de 2021, a empresa é liderada por Mate Rimac como CEO da Bugatti Rimac. Um dos seus modelos, o T35 (Tipo 35), iniciado em 1924, é considerado o maior vencedor de corridas de todos os tempos, atribuindo-se-lhe 1850 vitórias em competições."
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Lamborghini",
             "image": "lamb",
-            "description": "Descrição da Marca B."
+            "description": "Automobili Lamborghini é uma fabricante italiana de automóveis desportivos de luxo e de alto desempenho criada originalmente para competir com a Ferrari com sede no município de Sant'Agata Bolognese. A companhia, que foi fundada em 1963 por Ferruccio Lamborghini (1916–1993) como uma filial da sua bem-sucedida fábrica de tratores Lamborghini Trattori S.p.A., atualmente o grupo Volkswagen AG, a tem como subsidiaria da divisão Audi AG, onde intercambia tecnologias entre Audi R8 e os modelos mais recentes da Lamborghini."
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "Corvette",
             "image": "corvette",
-            "description": "Descrição da Marca B."
+            "description": "O Chevrolet Corvette é um automóvel desportivo criado pela Chevrolet em 1953. É fabricado hoje em dia por uma fábrica exclusiva em Bowling Green (Kentucky) da General Motors. Foi o primeiro carro esporte inteiramente americano fabricado por uma empresa americana. É hoje também o carro que esta em produção por mais tempo, desde 1953. Também é conhecido por ser cavalo barato pois custa em torno de 70 a 100 mil dólares em sua melhor versão, o que é um valor muito inferior a concorrentes como Ferrari, Lamborghini entre outros, e tem uma performance semelhante e em alguns casos superior. O National Corvette Museum é um museu dedicado ao carro, também localizado em Bowling Green, Kentucky. Atualmente a Chevrolet lançou mais uma geração do Chevrolet Corvette C7, sendo a versão ZR1 a mais potente de toda a divisão esportiva da marca, contando com um motor V8 SuperCharger de 6,2 litros que rende mais de 750 cavalos de potência e torque superior a 100 kgfm."
         },
         {
-            "id": 4,
-            "name": "Hennessey",
-            "image": "hennessey",
-            "description": "Descrição da Marca B."
+            "id": "4",
+            "name": "Mercedes Benz",
+            "image": "mercedes",
+            "description": "A Mercedes-Benz é uma marca alemã de automóveis pertencente a Mercedes-Benz Group criada em 1924, sendo resultado de uma fusão entre a Benz & Cie. e a Daimler-Motoren-Gesellschaft, é uma das mais antigas fabricantes de automóveis do mundo. Também produz caminhões, autocarros e os seus próprios motores. A Mercedes-Benz tem suas origens na Mercedes 35 hp de 1901 da Daimler-Motoren-Gesellschaft e na Benz Patent-Motorwagen de 1886 da Rheinische Gasmotorenfabrik, Benz & Cie, que é amplamente considerado como o primeiro automóvel movido a gasolina. Criada em 1883, a Benz & Cie. foi a maior empresa criada pelo alemão Karl Benz. A Daimler foi fundada por Gottlieb Daimler e pelo seu parceiro Wilhelm Maybach em 1890. Daimler viria a morrer em 1900 e Maybach deixou a empresa em 1907. Nessa altura, a Daimler e a Benz eram as grandes rivais de uma da outra. Contudo em 1924, as duas empresas assinaram um acordo de ajuda mútuo devido à necessidade de estimular a economia germânica após a Primeira Guerra Mundial. Este acordo viria a ser quebrado em 2000. Mesmo assim, as duas empresas criaram os seus próprios automóveis e as suas próprias marcas. Em 1926, quando então se formou a empresa Daimler-Benz, um novo símbolo fora então criado para cada parte (Daimler e Benz)."
         },
         {
-            "id": 5,
+            "id": "5",
             "name": "Nissan",
             "image": "nissan",
-            "description": "Descrição da Marca B."
+            "description": "A Nissan é uma fabricante japonesa de automóveis resultante de uma fusão entre Datsun e Prince. A Nissan está listada no Nikkei 225 e é a terceira maior fabricante japonesa de automóveis depois da Toyota e Honda em capitalização de mercado. Foi listada pela Forbes como a 132ª maior empresa do mundo na lista Global 2000 de 2019. Em 1999, a Renault constituiu a aliança Renault-Nissan com a Nissan e, desde então, detém 43,5% das ações da Nissan. Em 2016 a Renault-Nissan adquiriu uma participação de 34% na Mitsubishi tornando parte da aliança. Além disso a Nissan também é dona das marcas Infiniti e Nismo."
         },
         {
-            "id": 6,
+            "id": "6",
             "name": "Porsche",
             "image": "porsche",
-            "description": "Descrição da Marca B."
+            "description": "Porsche é um fabricante alemão de automóveis especializado em carros esportivos, SUVs e sedãs de alto desempenho, com sede em Stuttgart, Baden-Württemberg, Alemanha. A empresa é de propriedade do Grupo Volkswagen, cujo controle acionário pertence à Porsche SE. A linha atual da Porsche inclui o 718, 911, Panamera, Macan, Cayenne e Taycan. A marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e seu filho Ferry Porsche. Ferdinand Porsche já era conhecido antes de fundar a Porsche, ele havia trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido."
         }
     ]
 }

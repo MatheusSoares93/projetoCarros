@@ -16,8 +16,10 @@ export default function RootLayout() {
     >
       <Stack.Screen name="index" options={{ title: "Carros do Soares " }} />
       <Stack.Screen name="products" options={{ title: "Carros" }} />
-      <Stack.Screen name="car/[id]" options={{ title: 'Informações' }} />
-      <Stack.Screen name="about2" options={{ title: 'sobre2 wp' }} />
+      <Stack.Screen name="carsingle/id" options={{ title: 'Informações' }} />
+      <Stack.Screen name="about2" options={{ title: 'Sobre o app' }} />
+      <Stack.Screen name="brands" options={{ title: 'Marcas' }} />
+      <Stack.Screen name="brandsingle/id" options={{ title: 'Informações' }} />
     </Stack>
   );
 }
