@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet, Image, ScrollView, Dimensions } from 'react-native';
+import { Text, View, StyleSheet, Image, ScrollView} from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import list from '../products.json';
 import imageMappings from '../imageMappings';
@@ -25,8 +25,6 @@ export default function CarSingle() {
     );
 }
 
-const { width } = Dimensions.get('window');
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -36,8 +34,8 @@ const styles = StyleSheet.create({
     imageContainer: {
         alignItems: 'center',
         marginBottom: 20,
-        width: width - 40,
-        height: (width - 40) * 0.56,
+        width: "100%",
+        height: "100%"
     },
     image: {
         width: '100%',
