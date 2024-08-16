@@ -6,8 +6,7 @@ import imageMappings from '../imageMappings';
 
 export default function CarSingle() {
     const { id } = useLocalSearchParams();
-    const data = list.listProduct.find(
-        (item) => item.id === id);
+    const data = list.listProduct.find((item) => item.id === id);
 
     return (
         <ScrollView style={styles.container}>
@@ -15,7 +14,7 @@ export default function CarSingle() {
                 <Image
                     style={styles.image}
                     source={imageMappings[data.image]}
-                    resizeMode="contain" // Ajusta a imagem para caber no contêiner
+                    resizeMode="contain"
                 />
             </View>
             <View style={styles.containerSingle}>
@@ -26,7 +25,7 @@ export default function CarSingle() {
     );
 }
 
-const { width } = Dimensions.get('window'); // Obtém a largura da tela
+const { width } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
     container: {
@@ -37,8 +36,8 @@ const styles = StyleSheet.create({
     imageContainer: {
         alignItems: 'center',
         marginBottom: 20,
-        width: width - 40, // Largura ajustada com base na largura da tela
-        height: width - 40, // Altura ajustada para manter a proporção (quadrado)
+        width: width - 40,
+        height: (width - 40) * 0.56,
     },
     image: {
         width: '100%',

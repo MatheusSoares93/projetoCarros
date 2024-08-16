@@ -6,8 +6,7 @@ import imageMappings from '../imageMappings';
 
 export default function BrandSingle() {
     const { id } = useLocalSearchParams();
-    const data = brandsList.listBrand.find(
-        (item) => item.id === id);
+    const data = brandsList.listBrand.find((item) => item.id === id);
 
     return (
         <ScrollView style={styles.container}>
@@ -26,7 +25,7 @@ export default function BrandSingle() {
     );
 }
 
-const { width } = Dimensions.get('window'); 
+const { width } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
     container: {
@@ -37,8 +36,8 @@ const styles = StyleSheet.create({
     imageContainer: {
         alignItems: 'center',
         marginBottom: 20,
-        width: width - 40, 
-        height: width - 40, 
+        width: width - 40,
+        height: (width - 40) * 0.56, // Mantém a proporção 16:9
     },
     image: {
         width: '100%',
