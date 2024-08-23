@@ -30,30 +30,50 @@ export default function Index() {
         </Text>
 
         <View style={styles.buttonContainer}>
-          <Link href="/products" style={styles.button} asChild>
-            <Pressable>
-              <Text style={styles.buttonText}>
-                Ver carros
-              </Text>
-            </Pressable>
-          </Link>
+          <View style={styles.row}>
+            <Link href="/products" style={styles.button} asChild>
+              <Pressable style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Ver carros
+                </Text>
+              </Pressable>
+            </Link>
 
-          <Link href="/about2" style={styles.button} asChild>
-            <TouchableOpacity>
-              <Text style={styles.buttonText}>
-                Sobre
-              </Text>
-            </TouchableOpacity>
-          </Link>
+            <Link href="/about2" style={styles.button} asChild>
+              <TouchableOpacity style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Sobre
+                </Text>
+              </TouchableOpacity>
+            </Link>
+          </View>
+
+          <View style={styles.row}>
+            <Link href="/brands" style={styles.button} asChild>
+              <TouchableOpacity style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Marcas
+                </Text>
+              </TouchableOpacity>
+            </Link>
+
+            {/* <Link href="/flex" style={styles.button} asChild>
+              <TouchableOpacity style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Flex
+                </Text>
+              </TouchableOpacity>
+            </Link> */}
+
+            <Link href="/flex2" style={styles.button} asChild>
+              <TouchableOpacity style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Body Kit
+                </Text>
+              </TouchableOpacity>
+            </Link>
+          </View>
         </View>
-
-        <Link href="/brands" style={styles.button} asChild>
-          <TouchableOpacity>
-            <Text style={styles.buttonText}>
-              Marcas
-            </Text>
-          </TouchableOpacity>
-        </Link>
       </View>
 
       <View style={styles.bottomOverlay} />
@@ -95,7 +115,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Light',
     fontWeight: 'bold',
     marginBottom: 200,
-    marginTop: 250,
+    marginTop: 165,
     color: '#fff',
     fontSize: 20,
   },
@@ -106,9 +126,17 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 20,
   },
+  buttonContainer: {
+    alignItems: 'center', 
+  },
+  row: {
+    flexDirection: 'row', 
+    justifyContent: 'center', 
+    marginVertical: 10, 
+  },
   button: {
-    width: '150px',
-    margin: 15,
+    width: 150, 
+    marginHorizontal: 10, 
     backgroundColor: '#0066CC',
     alignItems: 'center',
     justifyContent: 'center',

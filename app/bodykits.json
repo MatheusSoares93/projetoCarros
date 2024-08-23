@@ -1,0 +1,40 @@
+{
+    "listBodykits": [
+      {
+        "id": "1",
+        "title": "Veilside",
+        "description": "Veilside Company Limited é uma companhia de veículos japonesa que vende suspensões, motores adaptados, parte internas, bem como partes aerodinâmicas de veículos e demais peças estéticas automotivas. É a responsável pela inovações feitas em veículos que participaram de alguns filmes. Entre eles o automóvel Mazda RX-7 usado no filme The Fast and the Furious.",
+        "image": "veilside"
+      },
+      {
+        "id": "2",
+        "title": "Liberty Walk",
+        "description": "O nome Liberty Walk é um nome que Kato San escolheu para representar a liberdade que um cliente tem para personalizar seu carro da maneira que desejar. Agora, isso estava totalmente alinhado com os princípios fundamentais do Liberty Walk. Kato san fundou a empresa originalmente para mudar a percepção das oficinas automóveis e para espalhar energia positiva, trazendo um sorriso aos rostos dos seus clientes. Eu amo isso. Além disso, o renegado obcecado queria se apresentar como um construtor radical e único.",
+        "image": "lbwk"
+      },
+      {
+        "id": "3",
+        "title": "Mansory",
+        "description": "Mansory é uma empresa de modificação de carros de luxo sediada em Brand , Alemanha . Além de carros de luxo, eles também trabalham com supercarros , SUVs de luxo e motos personalizadas. A empresa foi fundada em 1989 pelo preparador iraniano Kourosh Mansory. Sua oficina em Munique focava em modificações para marcas britânicas como Rolls-Royce e marcas italianas como Ferrari. Em meados de 2001, a empresa havia crescido de sua oficina em Munique e se mudado para a sede nas Montanhas Fichtel . A empresa atualmente opera em uma oficina em Brand, Alemanha.",
+        "image": "mansory"
+      },
+      {
+        "id": "4",
+        "title": "Rocket Bunny",
+        "description": "O nome “Rocket Bunny” origina-se de uma linha de peças que Kei desenvolveu nos anos 90 para o Kei van. Ficou preso porque, vamos encarar, é muito legal para deixar ir. Dentro do TRA Kyoto é onde a verdadeira magia acontece. É onde Kei Miura fabrica os icônicos kits Rocket Bunny, conhecidos como Pandem, nos EUA devido a questões de direitos autorais.",
+        "image": "rocket"
+      },
+      {
+        "id": "5",
+        "title": "Top Secret",
+        "description": "O fundador Kazuhiko Smokey Nagata começou sua carreira como mecânico da Toyota como seu funcionário mais jovem. Ele então se tornou um afinador e fabricante na Trust/GReddy . Quando ele começou a usar a loja Trust para seus próprios projetos pessoais em 1978, o nome Top Secret nasceu, como um apelido para seu trabalho discreto nas instalações da Trust. Seus empregadores permitiram que isso continuasse, pois Nagata era um funcionário altamente qualificado e um ativo valioso para a empresa.",
+        "image": "top"
+      },
+      {
+        "id": "6",
+        "title": "Hamann",
+        "description": "A Hamann Motorsport GmbH é uma empresa alemã de tuning de carros sediada em Laupheim . É especializada em carros Audi , Aston Martin , Bentley , BMW , Mini , Ferrari , Fiat , Jaguar , Land Rover , Maserati , Mercedes , Rolls-Royce , Porsche e Lamborghini . A Hamann Motorsport foi fundada por Richard Hamann em 1986.",
+        "image": "hamann"
+      }
+    ]
+  }  

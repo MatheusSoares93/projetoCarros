@@ -20,6 +20,9 @@ export default function RootLayout() {
       <Stack.Screen name="about2" options={{ title: 'Sobre o app' }} />
       <Stack.Screen name="brands" options={{ title: 'Marcas' }} />
       <Stack.Screen name="brandsingle/id" options={{ title: 'Informações' }} />
+      <Stack.Screen name="flex" options={{ title: 'flex' }} />
+      <Stack.Screen name="flex2" options={{ title: 'Body Kits' }} />
+      <Stack.Screen name="bodykitsingle/id" options={{ title: 'Informações' }} />
     </Stack>
   );
 }

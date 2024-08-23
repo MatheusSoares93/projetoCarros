@@ -10,7 +10,13 @@ const imageMappings = {
     "corvette": require('../assets/images/corvette.jpg'),
     "mercedes": require('../assets/images/mercedes.jpg'),
     "nissan": require('../assets/images/nissan.jpg'),
-    "porsche": require('../assets/images/porsche.jpg')
+    "porsche": require('../assets/images/porsche.jpg'),
+    "veilside": require('../assets/images/veilside.jpg'),
+    "lbwk": require('../assets/images/lbwk.jpg'),
+    "mansory": require('../assets/images/mansory.jpg'),
+    "rocket": require('../assets/images/rocket.jpg'),
+    "top": require('../assets/images/top.jpg'),
+    "hamann": require('../assets/images/hamann.jpg'),
 };
 
 export default imageMappings;
