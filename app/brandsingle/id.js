@@ -34,15 +34,15 @@ const styles = StyleSheet.create({
     imageContainer: {
         alignItems: 'center',
         marginBottom: 20,
-        width: "100%",
-        height: "100%"
+        width: '100%',
+        height: 200,
     },
     image: {
         width: '100%',
         height: '100%',
         borderRadius: 8,
     },
-    titleBrand: {
+    titleProduct: {
         fontSize: 24,
         fontWeight: 'bold',
         color: '#87CEEB',
@@ -54,11 +54,5 @@ const styles = StyleSheet.create({
         color: '#fff',
         textAlign: 'justify',
         marginBottom: 10,
-    },
-    errorText: {
-        color: '#fff',
-        textAlign: 'center',
-        marginTop: 20,
-        fontSize: 18,
     },
 });
