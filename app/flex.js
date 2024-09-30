@@ -7,7 +7,7 @@ export default function Flex() {
 
                 <View style={{ alignItems: 'center', 
                 justifyContent: 'center' }}>
-                    <Text>Pizza Napolitana</Text>
+                    <Text> Pizza Napolitana </Text>
                 </View>
 
                 <View style={{ flexDirection: 'row' }}>

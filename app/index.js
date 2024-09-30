@@ -2,7 +2,6 @@ import React from 'react';
 import { Text, View, ImageBackground, Pressable, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import { useFonts } from 'expo-font';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function Index() {
   let [fontsLoaded] = useFonts({
@@ -40,38 +39,31 @@ export default function Index() {
             </Link>
 
             <Link href="/about2" style={styles.button} asChild>
-              <TouchableOpacity style={styles.button}>
+              <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
                   Sobre
                 </Text>
-              </TouchableOpacity>
+              </Pressable>
             </Link>
           </View>
 
           <View style={styles.row}>
             <Link href="/brands" style={styles.button} asChild>
-              <TouchableOpacity style={styles.button}>
+              <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
                   Marcas
                 </Text>
-              </TouchableOpacity>
+              </Pressable>
             </Link>
 
-            {/* <Link href="/flex" style={styles.button} asChild>
-              <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>
-                  Flex
-                </Text>
-              </TouchableOpacity>
-            </Link> */}
-
             <Link href="/flex2" style={styles.button} asChild>
-              <TouchableOpacity style={styles.button}>
+              <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
                   Body Kit
                 </Text>
-              </TouchableOpacity>
+              </Pressable>
             </Link>
+
           </View>
         </View>
       </View>
