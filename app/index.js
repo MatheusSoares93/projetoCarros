@@ -13,12 +13,12 @@ export default function Index() {
   }
 
   return (
-    <ImageBackground 
+    <ImageBackground
       source={require('../assets/images/car.jpg')}
       style={styles.container}
     >
       <View style={styles.topOverlay} />
-      
+
       <View style={styles.content}>
         <Text style={styles.title}>
           Alguns dos carros que mais gosto
@@ -30,40 +30,55 @@ export default function Index() {
 
         <View style={styles.buttonContainer}>
           <View style={styles.row}>
-            <Link href="/products" style={styles.button} asChild>
+            <Link href="/products" asChild>
               <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
-                  Ver carros
+                  Ver Carros
                 </Text>
               </Pressable>
             </Link>
 
-            <Link href="/about2" style={styles.button} asChild>
+            <Link href="/about2" asChild>
               <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
-                  Sobre
+                  Sobre o App
+                </Text>
+              </Pressable>
+            </Link>
+
+            <Link href="/brands" asChild>
+              <Pressable style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Ver Marcas
                 </Text>
               </Pressable>
             </Link>
           </View>
 
           <View style={styles.row}>
-            <Link href="/brands" style={styles.button} asChild>
+            <Link href="/flex2" asChild>
               <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
-                  Marcas
+                  Ver Body Kits
                 </Text>
               </Pressable>
             </Link>
 
-            <Link href="/flex2" style={styles.button} asChild>
+            <Link href="/firebase" asChild>
               <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
-                  Body Kit
+                  Banco de Preços
                 </Text>
               </Pressable>
             </Link>
 
+            <Link href="/firebaseCrud" asChild>
+              <Pressable style={styles.button}>
+                <Text style={styles.buttonText}>
+                  Adicionar Carro ao Banco
+                </Text>
+              </Pressable>
+            </Link>
           </View>
         </View>
       </View>
@@ -84,24 +99,24 @@ const styles = StyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    height: 320, 
+    height: 320,
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
-    zIndex: 1, 
+    zIndex: 1,
   },
   bottomOverlay: {
     position: 'absolute',
     bottom: 0,
     left: 0,
     right: 0,
-    height: 320, 
+    height: 320,
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
-    zIndex: 1, 
+    zIndex: 1,
   },
   content: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    zIndex: 2, 
+    zIndex: 2,
   },
   title: {
     fontFamily: 'Roboto-Light',
@@ -119,24 +134,27 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   buttonContainer: {
-    alignItems: 'center', 
+    alignItems: 'center',
+    width: '100%',
   },
   row: {
-    flexDirection: 'row', 
-    justifyContent: 'center', 
-    marginVertical: 10, 
+    flexDirection: 'row',
+    justifyContent: 'space-around', 
+    marginVertical: 10,
+    width: '100%',
   },
   button: {
-    width: 150, 
-    marginHorizontal: 10, 
+    flex: 1,
+    height: 50,
+    marginHorizontal: 5,
     backgroundColor: '#0066CC',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 15,
-    borderRadius: 15,
+    borderRadius: 10,
   },
   buttonText: {
-    fontSize: 18,
+    textAlign:"center",
+    fontSize: 16,
     color: '#fff',
     fontWeight: 'bold',
   },
